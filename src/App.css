@@ -9,7 +9,7 @@ body {
 }
 
 .App header {
-  background-color: #181717;
+  background-color: #1f1f1f;
   height: 10vh;
   min-height: 50px;
   color: white;
@@ -30,7 +30,11 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(40, 37, 53);
+  background-color: #41495a;
+}
+
+.App header h1 {
+  margin-left: 20px;
 }
 
 main {
@@ -51,7 +55,7 @@ main::-webkit-scrollbar-track {
 }
 
 main::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background:  #46587e;
 }
 
 form {
@@ -65,17 +69,11 @@ form {
   font-size: 1.5rem;
 }
 
-form button {
-  width: 20%;
-  background-color: rgb(56, 56, 143);
-}
-
-
 input {
   line-height: 1.5;
-  width: 100%;
+  width: 80%;
   font-size: 1.5rem;
-  background: rgb(58, 58, 58);
+  background: #1e2125;
   color: white;
   outline: none;
   border: none;
@@ -83,10 +81,12 @@ input {
 }
 
 button {
-  background-color: #282c34; /* Green */
+  background-color:  #46587e;
+  height: 6vh;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 0 15px;
+  margin-right: 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -99,7 +99,6 @@ button:disabled {
   cursor: not-allowed;
 }
 
-
 .sign-in {
   color: #282c34;
   background: white;
@@ -107,8 +106,11 @@ button:disabled {
   margin: 0 auto;
 }
 
-
-
+form button {
+  width: 20%;
+  height: 10vh;
+  margin: 0;
+}
 
 ul, li {
   text-align: left;
@@ -119,7 +121,7 @@ p {
   max-width: 500px;
   margin-bottom: 12px;
   line-height: 24px;
-  padding: 10px 20px;
+  padding: 12px 20px;
   border-radius: 25px;
   position: relative;
   color: white;
@@ -131,18 +133,17 @@ p {
   align-items: center;
 }
 
-
 .sent {
   flex-direction: row-reverse;
 }
 
 .sent p {
   color: white;
-  background: #0b93f6;
+  background: #64759e;
   align-self: flex-end;
 }
 .received p {
-  background: #e5e5ea;
+  background: #bfcceb;
   color: black;
 }
 
@@ -151,4 +152,5 @@ img {
   height: 40px;
   border-radius: 50%;
   margin: 2px 5px;
+  border: 2px solid #64759e;
 }
