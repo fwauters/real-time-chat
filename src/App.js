@@ -10,6 +10,14 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 const firebaseConfig = {
   // firestore config
+  apiKey: "AIzaSyALx3-pR2eBxosfAMccNF7ByxO8UHXiMVo",
+  authDomain: "react-real-time-chat-fw13.firebaseapp.com",
+  databaseURL: "https://react-real-time-chat-fw13.firebaseio.com",
+  projectId: "react-real-time-chat-fw13",
+  storageBucket: "react-real-time-chat-fw13.appspot.com",
+  messagingSenderId: "167215188086",
+  appId: "1:167215188086:web:d3b7b7b670eb254b76f757",
+  measurementId: "G-5RD3LPLK8K"
 };
 
 firebase.initializeApp(firebaseConfig);
