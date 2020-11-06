@@ -1,8 +1,8 @@
 # Real-time chat
 
-:construction: **This project is a work in progress** :construction:
+:white_check_mark: **This project is fully functional !** :white_check_mark:
 
-:construction: *This project isn't hosted yet* :construction:
+You can check it by yourself on my website [@react-chat.fwauters.be](https://react-chat.fwauters.be).
 
 ## Concept
 
@@ -10,7 +10,7 @@ This is a simple web real-time chat app with a single chat room where anyone can
 
 ## Content
 
-The app start with a "Sign in with Google" page, and you must sign in to access the chat room. In the room, the last 25 messages are displayed and any connected user can post.
+The app start with a "Sign in with Google" page, and you must sign in to access the chat room. In the room, any connected user can post and the last 25 messages are displayed in real-time.
 
 ## Context
 
