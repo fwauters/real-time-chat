@@ -20,12 +20,11 @@ const firestore = firebase.firestore();
 function App() {
   // if signed in user = object, else user = null
   const [user] = useAuthState(auth);
-  console.log(user);
 
   return (
     <div className="App">
       <header>
-        <h1>React/Firestore Chat</h1>
+        <h1>React Chat App</h1>
         <SignOut />
       </header>
         
@@ -58,7 +57,6 @@ function ChatRoom() {
   const dummy = useRef();
   // reference a firestore collection
   const messagesRef = firestore.collection('messages');
-  console.log(messagesRef);
   // query documents in a collection (sort by time stamp & limited to 25)
   const query = messagesRef.orderBy('createdAt').limit(25);
   // make the query & listen data in real time with a hook
